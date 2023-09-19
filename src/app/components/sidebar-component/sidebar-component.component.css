@@ -59,6 +59,7 @@
 
 .sidebar .sidebar-header{
   position: relative;
+  max-height: 80px;
 }
 
 .sidebar .image-text img{
