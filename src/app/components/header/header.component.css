@@ -1,0 +1,27 @@
+.navbar{
+  position: relative;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
+  max-height: 80px;
+  margin-left: 250px;
+}
+
+.gear{
+  font-size: 2rem;
+  color: var(--text-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.gear:hover{
+  color: #FFF;
+  background: var(--primary-color);
+}
